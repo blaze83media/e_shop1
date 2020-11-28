@@ -1,0 +1,78 @@
+/* navbar1  */
+
+nav {
+    font-size: 80%;
+    font-weight: bold;
+    min-height: 30%;
+}
+
+#collapsibleNavbar a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* navbar2  */
+
+.navbar22 {
+    background-color: rgb(35, 41, 40);
+}
+
+.nav_bar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.nav_bar2 li {
+    float: left;
+}
+
+.nav_bar2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav_bar2 li a:hover {
+    background-color: #175763;
+}
+
+.nav_form {
+    margin-left: 50%;
+}
+
+
+#nav_search{
+   
+    }
+
+@media only screen and (min-width:500px) and (max-width:1200px) {
+    #nav_search {
+        min-width: 300px;
+        min-height: 110%;
+        margin-left: 20%;
+    }
+}
+
+#nv3 {
+    margin-left: 75%;
+}
+
+@media only screen and (min-width:200px) and (max-width:746px) {
+    #nav_search {
+        margin-left: 0%;
+        min-width: 100%;
+    }
+}

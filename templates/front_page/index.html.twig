@@ -1,0 +1,25 @@
+{{include('header.html.twig')}} 
+
+
+{% block body %}
+
+
+    {{ render(controller(
+        'App\\Controller\\FrontPageController::nav_bar'
+    )) }}
+
+
+    {{ render(controller(
+        'App\\Controller\\FrontPageController::nav_bar2'
+    )) }}
+
+
+        {{ render(controller(
+        'App\\Controller\\FrontPageController::carousel1'
+    )) }}
+
+
+{% endblock %}
+
+
+{{include('footer.html.twig')}} 

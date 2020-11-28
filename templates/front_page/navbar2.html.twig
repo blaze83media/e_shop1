@@ -1,0 +1,43 @@
+
+<link href="{{ asset('css/navbar.css') }}" rel="stylesheet"/>
+    
+    
+<div class="navbar22">
+    <ul class="nav  nav_bar2 ">
+        <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#home">Groceries</a>
+            <ul class="dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="#news">Health & Beauty</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="#contact">Blog</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="#about">About Us</a></li>
+            </ul>
+        </li>
+            <li class="nav-item"><a class="nav-link" href="#news">Health & Beauty</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+    </ul>
+</div
+
+
+
+
+    <div class="container-fluid">
+        <div class="row col-8 ">
+            <form class="form-inline my-2 my-lg-6 nav_form">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">All products</span>
+                </div>
+                <input type="search" class="form-control" placeholder="Search..." name="search" id="nav_search">
+                <input type="button" class="btn btn-primary" placeholder="Submit" name="submit" value="Submit" id="nav_submit">
+            </form>
+        </div>
+    </div>
+    
+
+
+
+    
+
+    {% block javascripts %}
+
+
+    {% endblock %}

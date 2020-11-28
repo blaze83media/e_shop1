@@ -1,0 +1,36 @@
+
+<link href="{{ asset('css/navbar.css') }}" rel="stylesheet"/>
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" id="nav1">
+    <a class="navbar-brand" id='nv1a' href="#home">e_shop1</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" id='nv1' href="{{asset('#home')}}">Hello, Sign in or Register</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" id='nv2' href="{{asset('#contact')}}">Help & Contact</a>
+            </li>    
+
+        </ul>
+
+
+            <a class="nav-link float-right" id='nv3' href="{{asset('#contact')}}"> Basket </a>
+
+    </div>  
+
+
+
+
+  
+    </nav>
+
+     
+    {% block javascripts %}
+
+
+    {% endblock %}

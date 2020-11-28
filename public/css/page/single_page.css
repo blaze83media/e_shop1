@@ -1,0 +1,92 @@
+.singleTop {
+    margin: 10%;
+}
+
+.singleTitle {
+    font-size: 30px;
+}
+
+.singleImage {
+    min-width: 70%;
+    min-height: 80%;
+}
+
+.singlePrice {
+    font-size: 30px;
+}
+
+#singleOldPrice {
+    text-decoration: line-through;
+}
+
+.hrline {
+    border: 1px solid rgb(124, 123, 123);
+}
+
+@media only screen and (min-width:0px) and (max-width:647px) {
+    .singleTitle {
+        font-size: 20px;
+    }
+    .singleBody {
+        margin-top: 5%;
+        word-wrap: break-word;
+    }
+}
+
+.checked {
+    color: orange;
+}
+
+
+/*Single page extraction -- Dafe*/
+
+.cat_img1 {
+    min-width: 60%;
+    max-width: 60%;
+    min-height: 65%;
+    max-height: 65%;
+    box-shadow: 1px 2px 3px #000000;
+}
+
+.main_cr {
+    margin-top: 5%;
+}
+
+#old_price {
+    text-decoration: line-through;
+}
+
+.catT {
+    margin-top: 2%;
+}
+
+@media only screen and (min-width:647px) and (max-width:1347px) {
+    .m_price,
+    #old_price,
+    #perc_off {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:647px) {
+    .m_price,
+    #old_price,
+    #perc_off {
+        font-size: 12px;
+    }
+    .all_cat {
+        margin-left: 20%;
+    }
+}
+
+
+/*
+@media only screen and (min-width:0px) and (max-width:647px) {
+    .btnOpenTab {
+        margin-left: -10%;
+    }
+    .main_cr {
+        margin-left: 10%;
+    }
+}
+*/
